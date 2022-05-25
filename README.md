@@ -8,6 +8,11 @@ This project enables to fetch data from website using **HttpClientModule** and s
 
 This project was generated with **Angular** version 13.3.6
 
+## Recordings :film_projector:
+
+![20220526_000351](https://user-images.githubusercontent.com/81719028/170367037-831ba95b-4c3b-43e6-831b-ad4c24f5627b.gif)
+
+
 ## Development server :file_folder:
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
