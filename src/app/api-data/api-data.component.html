@@ -1,0 +1,23 @@
+<div class="upperContainer">
+    <h1>UserList</h1>
+    <button type="button" formtarget="_parent" class="randomChoose" (click)="submit()" >Pick Randomly!</button>
+</div>
+
+<ul class="userList" *ngIf = "users" [ngClass]="[userDisplayStyle]">
+    <li class="userItem" *ngFor="let user of users">
+        <p>UserId = {{user.userId}}</p>
+        <p>Id = {{user.id}}</p>
+        <p>Title = {{user.title}}</p>
+        <p>Body = {{user.body}}</p>
+    </li>
+</ul>
+
+<ul class="randomList" *ngIf = "randomUsers" [ngClass]="[randomDisplayStyle]">
+    <li class="userItem" *ngFor="let user of randomUsers">
+        <p>UserId = {{user.postId}}</p>
+        <p>Id = {{user.id}}</p>
+        <p>Title = {{user.name}}</p>
+        <p>E-mail = {{user.email}}</p>
+        <p>Body = {{user.body}}</p>
+    </li>
+</ul>
